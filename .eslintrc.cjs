@@ -24,5 +24,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'import/extensions': ['error', 'ignorePackages', { js: 'always', mjs: 'always' }],
   },
 };
